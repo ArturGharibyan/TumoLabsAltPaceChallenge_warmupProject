@@ -5,10 +5,14 @@
     height: 461px;
 
 }
+
+
+
 .text1{
     width: 739.58px;
     height: 461px;
 }
+
 
 
 
@@ -26,6 +30,7 @@
 
 
 
+
 #text>textarea{
     position: absolute;
     left: 0;
@@ -33,6 +38,8 @@
     margin: auto;
     top:50px;
 }
+
+
 
 .DivGlobal{
     width: 100%;
