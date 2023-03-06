@@ -1,0 +1,82 @@
+
+
+.text{
+    width: 739.58px;
+    height: 461px;
+
+}
+.text1{
+    width: 739.58px;
+    height: 461px;
+}
+
+
+
+.textdiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    background-color: rgb(96, 96, 180);
+    border-radius: 20px;
+    
+}
+
+
+
+#text>textarea{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top:50px;
+}
+
+.DivGlobal{
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.DivGlobal>div{
+    margin: 30px;
+}
+
+#Div_Buttins{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#Div_Buttins>button{
+    margin: 20px;
+    border: 2px solid rgb(145, 145, 247);;
+    background-color: rgb(130, 130, 236);
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+#Div_Buttins>button:hover{
+    background-color: rgb(172, 159, 248);
+}
+
+@media screen and (max-width:527px) {
+    #text>textarea{
+        width: 250px;
+        height: 200px;
+    }
+}
